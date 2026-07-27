@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply bg-light-bg-primary dark:bg-dark-bg-primary;
+    @apply text-light-text-primary dark:text-dark-text-primary;
+    @apply antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2196F3;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0F3D91;
+  }
+}
+
+@layer components {
+  /* Glass card effect */
+  .glass-card {
+    @apply bg-white/80 dark:bg-dark-bg-elevated/80 backdrop-blur-md border border-white/20 dark:border-white/5;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-l from-[#2196F3] to-[#0F3D91];
+  }
+
+  /* Orange accent gradient */
+  .gradient-orange {
+    @apply bg-gradient-to-l from-[#F59E0B] to-[#D97706];
+  }
+
+  /* Swiper pagination bullets override */
+  .review-swiper-container .swiper-pagination-bullet {
+    @apply bg-accent/30 opacity-100;
+    width: 10px;
+    height: 10px;
+  }
+  .review-swiper-container .swiper-pagination-bullet-active {
+    @apply bg-accent;
+    width: 28px;
+    border-radius: 5px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
