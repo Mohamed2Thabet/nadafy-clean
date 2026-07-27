@@ -15,7 +15,7 @@ export const services = [
     title: 'تنظيف المنازل',
     description:
       'خدمة تنظيف منازل شاملة تغطي جميع الغرف والأرضيات والحمامات والمطابخ بأحدث المعدات ومواد تنظيف آمنة لضمان بيئة نظيفة وصحية لعائلتك.',
-    image: '/images/apartment-cleaning.png',
+    image: '/images/House-Cleaning.png',
     features: [
       'تنظيف شامل لجميع الغرف',
       'تلميع الأرضيات والسيراميك',
@@ -40,7 +40,7 @@ export const services = [
     title: 'تنظيف الفلل',
     description:
       'خدمات تنظيف متكاملة للفلل والقصور تشمل التنظيف الداخلي والخارجي والمسابح والحدائق باستخدام أحدث التقنيات العالمية.',
-    image: '/images/villa-cleaning.png',
+    image: '/images/Villa-Cleaning.jpeg',
     features: [
       'تنظيف داخلي وخارجي شامل',
       'تنظيف المجالس والصالات',
@@ -65,7 +65,7 @@ export const services = [
     title: 'التنظيف العميق',
     description:
       'تنظيف عميق ومكثف يصل إلى أدق الزوايا والأماكن التي لا يصل إليها التنظيف العادي لضمان بيئة خالية من الجراثيم والبكتيريا.',
-    image: '/images/post-construction-cleaning.png',
+    image: '/images/Deep-Cleaning.jpeg',
     features: [
       'تنظيف عميق لجميع الزوايا',
       'إزالة البقع المستعصية',
@@ -90,7 +90,7 @@ export const services = [
     title: 'تنظيف الكنب',
     description:
       'تنظيف وتعقيم الكنب والمفروشات بالبخار لإزالة البقع والروائح والحفاظ على جودة الأقمشة وإطالة عمرها الافتراضي.',
-    image: '/images/sofa-cleaning.png',
+    image: '/images/Sofa-Cleaning.jpeg',
     features: [
       'إزالة البقع الصعبة والمستعصية',
       'تعقيم بالبخار الساخن',
@@ -115,7 +115,7 @@ export const services = [
     title: 'تنظيف السجاد',
     description:
       'تنظيف عميق للسجاد بجميع أنواعه باستخدام أحدث التقنيات ومواد آمنة لإزالة الأوساخ والبكتيريا واستعادة رونقه الأصلي.',
-    image: '/images/carpet-cleaning.png',
+    image: '/images/Carpet-Cleaning.jpeg',
     features: [
       'إزالة البقع العنيدة',
       'تنظيف بالبخار المتقدم',
@@ -140,7 +140,7 @@ export const services = [
     title: 'تنظيف الستائر',
     description:
       'خدمة تنظيف الستائر بأحدث الأساليب سواء بالبخار أو بالغسيل الجاف مع الحفاظ على الأقمشة وألوانها الأصلية.',
-    image: '/images/carpets.png',
+    image: '/images/Curtain-Cleaning.png',
     features: [
       'تنظيف جميع أنواع الستائر',
       'غسيل جاف أو بالبخار',
@@ -165,7 +165,7 @@ export const services = [
     title: 'تنظيف المطابخ',
     description:
       'تنظيف شامل ومتخصص للمطابخ يشمل إزالة الدهون المتراكمة وتنظيف الأجهزة والأسطح وتعقيم جميع الأركان.',
-    image: '/images/apartment-cleaning.png',
+    image: '/images/Kitchen-Cleaning.jpeg',
     features: [
       'إزالة الدهون المتراكمة',
       'تنظيف الأفران والشفاطات',
@@ -190,7 +190,7 @@ export const services = [
     title: 'تنظيف خزانات المياه',
     description:
       'تنظيف وتعقيم خزانات المياه بشكل احترافي لضمان مياه نظيفة وصحية وخالية من الملوثات والشوائب.',
-    image: '/images/ac-cleaning.png',
+    image: '/images/Water-Tank-Cleaning.jpg',
     features: [
       'تفريغ وتنظيف كامل للخزان',
       'إزالة الرواسب والطحالب',
@@ -215,7 +215,7 @@ export const services = [
     title: 'مكافحة الحشرات',
     description:
       'مكافحة شاملة لجميع أنواع الحشرات باستخدام مبيدات آمنة ومعتمدة مع ضمان القضاء الكامل والوقاية طويلة الأمد.',
-    image: '/images/ac-maintenance.png',
+    image: '/images/Pest-Control.jpeg',
     features: [
       'مكافحة الصراصير والنمل',
       'القضاء على بق الفراش',
@@ -240,7 +240,7 @@ export const services = [
     title: 'مكافحة القوارض',
     description:
       'حلول متكاملة لمكافحة القوارض والفئران باستخدام أساليب حديثة وآمنة تضمن القضاء الكامل ومنع العودة.',
-    image: '/images/ac-maintenance.png',
+    image: '/images/Rodent-Control.jpg',
     features: [
       'فحص شامل لتحديد المسارات',
       'استخدام مصائد احترافية',
@@ -265,7 +265,7 @@ export const services = [
     title: 'تنظيف المكاتب',
     description:
       'خدمات تنظيف مكاتب وشركات احترافية توفر بيئة عمل نظيفة وصحية تعزز إنتاجية الموظفين وتعطي انطباعاً مميزاً.',
-    image: '/images/apartment-cleaning.png',
+    image: '/images/Office-Cleaning.jpg',
     features: [
       'تنظيف يومي أو أسبوعي',
       'تعقيم المكاتب والأسطح',
@@ -290,7 +290,7 @@ export const services = [
     title: 'تنظيف المجالس',
     description:
       'تنظيف وتعقيم المجالس العربية بالبخار مع العناية بالأقمشة الفاخرة والحفاظ على رونقها وجمالها الأصلي.',
-    image: '/images/sofa-cleaning.png',
+    image: '/images/Majlis-Cleaning.jpg',
     features: [
       'تنظيف أقمشة المجالس بالبخار',
       'إزالة البقع والروائح',
@@ -315,7 +315,7 @@ export const services = [
     title: 'تنظيف المراتب',
     description:
       'تنظيف وتعقيم المراتب بالبخار للقضاء على عث الغبار والبكتيريا وضمان نوم صحي ومريح لجميع أفراد الأسرة.',
-    image: '/images/carpet-cleaning.png',
+    image: '/images/Mattress-Cleaning.jpeg',
     features: [
       'إزالة عث الغبار والحشرات',
       'تعقيم بالبخار الساخن',
@@ -340,7 +340,7 @@ export const services = [
     title: 'تنظيف ما بعد التشطيب',
     description:
       'إزالة مخلفات البناء والتشطيب بالكامل وتنظيف شامل لتجهيز المكان للسكن الفوري بأفضل صورة ممكنة.',
-    image: '/images/post-construction-cleaning.png',
+    image: '/images/Post-Construction-Cleaning.jpg',
     features: [
       'إزالة بقايا الدهانات والأسمنت',
       'تنظيف الأرضيات والحوائط',
@@ -365,7 +365,7 @@ export const services = [
     title: 'التعقيم والتطهير',
     description:
       'خدمات تعقيم وتطهير شاملة باستخدام مواد معتمدة دولياً للقضاء على الفيروسات والبكتيريا وتوفير بيئة آمنة وصحية.',
-    image: '/images/villa-cleaning.png',
+    image: '/images/BathroomDisinfection&Sanitization.jpeg',
     features: [
       'تعقيم شامل بمواد معتمدة',
       'القضاء على الفيروسات والبكتيريا',

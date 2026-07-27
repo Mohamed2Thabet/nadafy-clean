@@ -8,7 +8,7 @@ import type { SiteConfig, NavLink } from '@/types'
 export const siteConfig: SiteConfig = {
   name: 'نداء النظافة - خدمات تنظيف احترافية',
   nameEn: 'Nadafy Clean',
-  ogImage: '/images/logo.svg',
+  ogImage: '/images/logo.png',
   description:
     'خدمات تنظيف احترافية في جميع إمارات الدولة - تنظيف منازل، فلل، مكاتب، كنب، سجاد، مكافحة حشرات، تعقيم وتطهير',
   url: 'https://nadafyclean.ae',

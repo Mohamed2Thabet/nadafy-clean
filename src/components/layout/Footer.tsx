@@ -23,7 +23,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center self-start">
               <div className="relative w-44 h-16 transition-transform hover:scale-105">
                 <Image
-                  src="/images/logo_footer.png"
+                  src="/images/logo.png"
                   alt="نداء النظافة - Nadafy Clean"
                   fill
                   priority

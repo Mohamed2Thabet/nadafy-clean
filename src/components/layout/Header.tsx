@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3">
             <div className="relative w-40 h-16 transition-transform hover:scale-105">
               <Image
-                src="/images/logo.svg"
+                src="/images/logo.png"
                 alt="نداء النظافة - Nadafy Clean"
                 fill
                 priority

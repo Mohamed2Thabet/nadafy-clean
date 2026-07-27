@@ -12,37 +12,37 @@ export default function BeforeAfterSection() {
     id: "1",
     title: "تنظيف الفلل",
     category: "تنظيف شامل",
-    afterImg: "/images/villa-cleaning.png",
+    afterImg: "/images/Villa-Cleaning.jpeg",
   },
   {
     id: "2",
     title: "تنظيف المنازل",
     category: "تنظيف سكني",
-    afterImg: "/images/apartment-cleaning.png",
+    afterImg: "/images/House-Cleaning.png",
   },
   {
     id: "3",
     title: "تنظيف الكنب بالبخار",
     category: "تنظيف مفروشات",
-    afterImg: "/images/sofa-cleaning.png",
+    afterImg: "/images/Sofa-Cleaning.jpeg",
   },
   {
     id: "4",
     title: "تنظيف السجاد والستائر",
     category: "تنظيف مفروشات",
-    afterImg: "/images/carpet-cleaning.png",
+    afterImg: "/images/Carpet-Cleaning.jpeg",
   },
   {
     id: "5",
     title: "تنظيف ما بعد التشطيب",
     category: "تنظيف عميق",
-    afterImg: "/images/post-construction-cleaning.png",
+    afterImg: "/images/Post-Construction-Cleaning.jpg",
   },
   {
     id: "6",
     title: "تنظيف وتعقيم الخزانات",
     category: "تعقيم وتطهير",
-    afterImg: "/images/ac-cleaning.png",
+    afterImg: "/images/Water-Tank-Cleaning.jpg",
   },
 ];
 

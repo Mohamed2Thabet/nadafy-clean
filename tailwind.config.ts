@@ -10,62 +10,116 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Brand Accent Colors
+        // Brand Colors - Matched to Logo (Navy / Sky Blue / Orange / Gold)
+        primary: {
+          DEFAULT: '#0B1F3A',
+          hover: '#081527',
+          light: '#16345C',
+        },
+
+        secondary: {
+          DEFAULT: '#1E88E5',
+          hover: '#1669B3',
+          light: '#5EB3F5',
+        },
+
         accent: {
-          DEFAULT: '#2196F3',
-          hover: '#1976D2',
+          DEFAULT: '#F7941D',
+          hover: '#E07C00',
+          light: '#FFB74D',
         },
-        orange: {
-          DEFAULT: '#F59E0B',
-          hover: '#D97706',
+
+        gold: {
+          DEFAULT: '#FFC107',
+          hover: '#E5A800',
         },
-        // Light Mode Colors
+
+        success: '#22C55E',
+        danger: '#EF4444',
+
+        // Light Theme
         light: {
           bg: {
             primary: '#F8FAFC',
             secondary: '#FFFFFF',
-            tint: '#EBF5FF',
+            tint: '#EAF4FF',
           },
           text: {
-            primary: '#1E293B',
-            secondary: '#64748B',
+            primary: '#1F2937',
+            secondary: '#6B7280',
           },
-          navy: '#0F3D91',
+          border: '#E5E7EB',
         },
-        // Dark Mode Colors
+
+        // Dark Theme
         dark: {
           bg: {
-            primary: '#0B1929',
-            secondary: '#0F2744',
-            elevated: '#132F57',
+            primary: '#0A1628',
+            secondary: '#0E1F38',
+            elevated: '#16304F',
           },
           text: {
-            primary: '#F1F5F9',
-            secondary: '#94A3B8',
+            primary: '#F8FAFC',
+            secondary: '#CBD5E1',
           },
+          border: '#22436B',
         },
       },
+
       fontFamily: {
         cairo: ['var(--font-cairo)', 'sans-serif'],
       },
+
+      borderRadius: {
+        xl: '1rem',
+        '2xl': '1.5rem',
+      },
+
+      boxShadow: {
+        primary: '0 10px 30px rgba(11,31,58,.25)',
+        accent: '0 10px 25px rgba(247,148,29,.25)',
+      },
+
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.6s ease-out',
-        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'float': 'float 6s ease-in-out infinite',
+        float: 'float 6s ease-in-out infinite',
+        glow: 'glow 2s ease-in-out infinite alternate',
       },
+
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
+
         slideUp: {
-          '0%': { transform: 'translateY(20px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
+          '0%': {
+            transform: 'translateY(20px)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
         },
+
         float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
+          '0%,100%': {
+            transform: 'translateY(0)',
+          },
+          '50%': {
+            transform: 'translateY(-8px)',
+          },
+        },
+
+        glow: {
+          from: {
+            boxShadow: '0 0 8px rgba(255,193,7,.3)',
+          },
+          to: {
+            boxShadow: '0 0 20px rgba(255,193,7,.8)',
+          },
         },
       },
     },
