@@ -13,7 +13,7 @@ const cairo = Cairo({
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: `%s | ${siteConfig.name}`,
+    template: `%s | ${siteConfig.name}`,  
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,

@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   ogImage: '/images/logo.png',
   description:
     'خدمات تنظيف احترافية في جميع إمارات الدولة - تنظيف منازل، فلل، مكاتب، كنب، سجاد، مكافحة حشرات، تعقيم وتطهير',
-  url: 'https://nadafyclean.ae',
+  url: 'https://nadafy-clean-vsnm.vercel.app',
   links: {
     whatsapp: 'https://wa.me/971501234567',
     twitter: 'https://twitter.com',
